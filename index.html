@@ -1,90 +1,74 @@
 <html>
-  <title> Bio Data </title>
+<title>Famous Filipino Dishes</title>
+<style>
+  body {background: lavender;}
+  h1 {text-align: center; margin-top: 20px;color: white;}
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;}
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;}
+  .card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;}
+  .card:hover {
+    transform: scale(1.05);}
 
-  <style>
-    body {text-align: center; background: pink; font-family: Arial;}
-  </style>
+  .dish-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0;}
 
-  <body>
-    <h1> Personal Information </h1>
-    <hr>
+  .description {
+    font-size: 14px;
+    color: #666;}
+</style>
 
-    <b> First Name: </b> <br>
-    Camille <br>
-    
-    <b> Middle Name: </b> <br>
-    Red <br>
-    
-    <b> Last Name: </b> <br>
-    Tuda <br>
-    
-    <b> Religion: </b> <br>
-    Catholic <br>
-    
-    <b> Alias: </b> <br>
-    Camy/Nenen <br>
-    
-    <b> Gender: </b> <br>
-    Female <br>
-    
-    <b> Height: </b> <br>
-    4'11 <br>
-    
-    <b> Weight: </b> <br>
-    39kg <br>
-    
-    <b> Birth Place: </b> <br>
-    Manila <br>
-    
-    <b> Birth Date: </b> <br>
-    June 4, 2006 <br>
-    
-    <b> Age: </b> <br>
-    18 <br>
-    
-    <b> Address: </b> <br>
-    120 Cadena de Amor St. Magsaysay Village Tondo, Manila <br>
-    
-    <b> Contact Number: </b> <br>
-    09453746617 <br>
-    
-    <b> School: </b> <br>
-    ACLC College Manila <br>
-    
-    <b> Occupation: </b> <br>
-    Student <br>
-    
-    <b> Favorite Movie: </b> <br>
-    Bumblebee <br>
-    
-    <b> Favorite Actor: </b> <br>
-    Don Lee <br>
-    
-    <b> Favorite Actress: </b> <br>
-    Dakota Johnson <br>
-    
-    <b> Favorite Song: </b> <br>
-    BIRDS OF A FEATHER <br>
-    
-    <b> Favorite Band: </b> <br>
-    Korn <br>
-    
-    <b> Favorite Singer: </b> <br>
-    Poppy <br>
-    
-    <b> Favorite Color: </b> <br>
-    Black <br>
-    
-    <b> Favorite Food: </b> <br>
-    Egg Quail <br>
-    
-    <b> Favorite Sport: </b> <br>
-    Volleyball <br>
-    
-    <b> Hobbies: </b> <br>
-    Singing, Writing <br>
-    
-    <b> Motto: </b> <br>
-    <i style="color: blue">"Throughout Heaven and Earth, I, alone, am the honoured one."</i>
-  </body>
+<body>
+  <h1>Choose your dish!</h1>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150?text=Adobo" alt="Adobo">
+      <div class="dish-name">Adobo</div>
+      <div class="description">A savory dish made with pork or chicken, soy sauce, and vinegar.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150?text=Sinigang" alt="Sinigang">
+      <div class="dish-name">Sinigang</div>
+      <div class="description">A tangy tamarind-based soup with pork, shrimp, or fish.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150?text=Lechon" alt="Lechon">
+      <div class="dish-name">Lechon</div>
+      <div class="description">Crispy, roasted whole pig served on special occasions.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150?text=Kare-Kare" alt="Kare-Kare">
+      <div class="dish-name">Kare-Kare</div>
+      <div class="description">A peanut-based stew with oxtail, tripe, and vegetables.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150?text=Halo-Halo" alt="Halo-Halo">
+      <div class="dish-name">Halo-Halo</div>
+      <div class="description">A popular dessert made with shaved ice, sweet beans, and fruits.</div>
+    </div>
+  </div>
+</body>
 </html>
