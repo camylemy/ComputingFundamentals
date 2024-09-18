@@ -8,7 +8,7 @@
     padding: 0;
   }
 
-  header {
+header {
     text-align: center;
     color: white;
     background-color: lavender;
@@ -16,16 +16,18 @@
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 5px;
-    animation: colorChange 3s infinite alternate ease-in-out, scaleUp 3s infinite alternate ease-in-out;}
+    animation: colorChange 3s infinite alternate ease-in-out, scaleUp 3s infinite alternate ease-in-out;
+  }
 
   @keyframes colorChange {
     0% { color: white; }
-    100% { color: gold; }
+    100% { color: pink; }
   }
+
   @keyframes scaleUp {
     0% { transform: scale(1); }
     100% { transform: scale(1.1); }
-  }}
+  }
 
   .container {
     display: flex;
